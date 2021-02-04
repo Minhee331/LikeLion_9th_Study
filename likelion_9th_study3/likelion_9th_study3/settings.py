@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'showName.apps.ShownameConfig',
+    'wordcounter.apps.WordcounterConfig',
 ]
 
 MIDDLEWARE = [
