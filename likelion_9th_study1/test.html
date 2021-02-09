@@ -20,6 +20,19 @@
         .content{
             font-size: 24px;
         }
+        a[target='blank'] {color: blueviolet;}
+        article p {
+            color: chartreuse;
+        }
+        a:link {
+            color: chocolate;
+        }
+        a:visited {
+            color: darkgoldenrod;
+        }
+        a:hover{
+            background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -57,5 +70,19 @@
 <p>첫번째 단락입니다. </p>
 <h2 id = "second">두번째 단락</h2>
 <p class = "content">두번째 단락입니다. </p>
+<a href="https://www.google.com/" target="_self">구글 현재창</a>
+<a href="https://www.google.com/" target="blank" id="new_link">구글 새창</a>
+<a href="https://www.google.com/"  target="_self">구글 현재창</a>
+<a href="https://www.google.com/"  target="_self">구글 현재창</a>
+<article>
+    <div>
+        자식1
+        <p>후손 1</p>
+    </div>
+    <div>자식 2
+        <p>후손 2</p>
+    </div>
+    <p>자식3</p>
+</article>
 </body>
 </html>
