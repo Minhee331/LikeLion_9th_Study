@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
+        /* * {
             color: darkmagenta;
         }
         h2{
@@ -32,11 +32,41 @@
         }
         a:hover{
             background-color: black;
+        } */
+        html{
+            background-color: khaki;
+            font-size: 32px;
+        }
+        #main {
+            background-color: darkslateblue;
+            height: 150px;
+        }
+        #px{
+            background-color: lawngreen;
+            width: 16px;
+            height: 16px;
+        }
+        #em{
+            background-color: lightcoral;
+            width: 1em;
+            height: 1em;
+            font-size: 24px;
+        }
+        #rem{
+            background-color: lightslategrey;
+            width: 1rem;
+            height: 1rem;
         }
     </style>
 </head>
 <body>
-    <h2>회원가입</h2>
+    <div id="main">
+        단위
+        <div id="px">px</div>
+        <div id="em">em</div>
+        <div id="rem">rem</div>
+    </div>
+    <!-- <h2>회원가입</h2>
     <form action="my-app" method="GET">
     <div>
         <label for="userid">아이디: </label>
@@ -83,6 +113,6 @@
         <p>후손 2</p>
     </div>
     <p>자식3</p>
-</article>
+</article> -->
 </body>
 </html>
